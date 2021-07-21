@@ -1,0 +1,96 @@
+*{
+  color: white;
+}
+
+a{
+  color: white;
+}
+
+a:hover {
+background-color: blue;
+color: white;
+}
+
+.nama{
+  font-size: 50px;
+  font-family: fantasy;
+  font-weight: bold;
+  padding-left: 200px;
+}
+
+.text{
+  text-align: center;
+  font-size: 15px;
+}
+
+.container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.data{
+  align-self: center;
+}
+
+.skill{
+  background-color: black;
+  display: flex;
+  justify-self: center;
+  flex-direction:column;
+}
+
+.nav-link {
+  padding: 0;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  color: inherit;
+  opacity: 0.8; 
+}
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+.topnav h1 {
+  float: left;
+  color: black;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+div .buttons{
+  text-indent: 30px;
+  word-spacing: 20px;
+}
+
+table{
+  width: 700px;
+  height: 700px;
+  text-align: center;
+}
+
+th{
+  color: white;
+}
+
+.container-2{
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+.container-1{
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
